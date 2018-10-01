@@ -4,6 +4,7 @@ RSpec.describe Tads6Carlos do
   end
 it "Deveria mostrar uma frase" do
  x = Tads6Carlos::HelloWorld.new
-  expect(x.diga).to eq("Hello World")
+  expect(x.diga("Hello World")).to eq("Hello World")
+
 end
 end
